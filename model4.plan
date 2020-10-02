@@ -1,0 +1,11 @@
+begin segments
+  t1 = (1,5),(1,1),2,straight,go,40,300,parkNone
+  t2 = (1,1),(5,1),2,straight,go,40,300,parkNone
+end segments
+
+
+begin crossings
+  c1 = (1,1),20, withoutTL, withoutHole, 300, 3
+end crossings
+
+

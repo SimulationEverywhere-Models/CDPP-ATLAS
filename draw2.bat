@@ -1,0 +1,1 @@
+graflog -x2 -y4 -e40 -fmodel4t2.drw -cmodel.col -s1 -v

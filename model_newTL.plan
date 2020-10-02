@@ -1,0 +1,78 @@
+begin segments
+ Colonel_A = (10, 0), (10, 10), 1, straight, go, 40, 300, parkNone
+ Colonel_B = (10, 10), (17, 190), 1, straight, go, 40, 300, parkNone
+ Colonel_A1 = (10, 0), (10, 10), 1, straight, back, 40, 300, parkNone
+ Colonel_B1 = (10, 10), (17, 190), 1, straight, back, 40, 300, parkNone
+
+ University_A = (10, 10), (20, 16), 2, straight, go, 40, 300, parkNone
+ University_B = (20, 16), (71, 61), 1, straight, go, 40, 300, parkNone
+ University_C = (71, 61), (86, 90), 1, curve, go, 40, 300, parkNone
+ University_D = (86, 90), (82, 104), 2, straight, go, 40, 300, parkNone
+ University_E = (82, 104), (74, 120), 2, straight, go, 40, 300, parkNone
+ University_F = (74, 120), (65, 165), 2, straight, go, 40, 300, parkNone
+ University_A1 = (10, 10), (20, 16), 2, straight, back, 40, 300, parkNone
+ University_B1 = (20, 16), (71, 61) , 1, straight, back, 40, 300, parkNone
+ University_C1 = (71, 61), (86, 90) , 1, curve, back, 40, 300, parkNone
+ University_D1 = (86, 90), (82, 104), 2, straight, back, 40, 300, parkNone
+ University_E1 = (82, 104), (74, 120), 2, straight, back, 40, 300, parkNone
+ University_F1 = (74, 120), (65, 165), 2, straight, back, 40, 300, parkNone
+
+ Library_A = (20, 16), (35, 107), 1, straight, go, 40, 300, parkNone
+ Library_B = (35, 107), (62, 113), 1, straight, go, 40, 300, parkNone
+ Library_C = (35, 107), (35, 130), 1, straight, go, 40, 300, parkNone
+ Library_A1 = (20, 16), (35, 107), 1, straight, back, 40, 300, parkNone
+ Library_B1 = (35, 107), (62, 113), 1, straight, back, 40, 300, parkNone
+ Library_C1 = (35, 107), (35, 130), 1, straight, back, 40, 300, parkNone
+ 
+ Campus_A = (71, 61), (62, 113), 1, straight, go, 40, 300, parkNone
+ Campus_B = (62, 113), (53, 160), 1, straight, go, 40, 300, parkNone
+ Campus_C = (53, 160), (25, 188), 1, straight, go, 40, 300, parkNone
+ Campus_A1 = (71, 61), (62, 113), 1, straight, back, 40, 300, parkNone
+ Campus_B1 = (62, 113), (53, 160), 1, straight, back, 40, 300, parkNone
+ Campus_C1 = (53, 160), (25, 188), 1, straight, back, 40, 300, parkNone
+ 
+ Anniversary_A = (53, 160), (65, 165), 1, straight, go, 40, 300, parkNone
+ Anniversary_B = (65, 165), (90, 180), 2, straight, go, 40, 300, parkNone
+ Anniversary_A1 = (53, 160), (65, 165), 1, straight, back, 40, 300, parkNone
+ Anniversary_B1 = (65, 165), (90, 180), 2, straight, back, 40, 300, parkNone
+
+ SunnySide_A = (90, 180), (102, 190), 1, straight, go, 40, 300, parkNone
+ SunnySide_A1 = (90, 180), (102, 190), 1, straight, back, 40, 300, parkNone
+
+ Raven_A = (86, 90), (99, 95), 1, straight, go, 40, 300, parkNone
+ Raven_A1 = (86, 90), (99, 95), 1, straight, back, 40, 300, parkNone
+ Raven_B = (99, 95), (110, 128), 1, curve, go, 40, 300, parkNone 
+ Raven_B1 = (99, 95), (110, 128), 1, curve, back, 40, 300, parkNone
+ 
+ Drive_A = (82, 104), (92, 110), 1, straight, go, 40, 300, parkNone
+ Drive_A1 = (82, 104), (92, 110), 1, straight, back, 40, 300, parkNone
+ Drive_B = (92, 110), (99, 95), 1, straight, go, 40, 300, parkNone
+ Drive_B1 = (92, 110), (99, 95), 2, straight, back, 40, 300, parkNone
+
+ Bronson_A = (124, 115), (90, 180), 3, straight, go, 60, 300, parkNone
+ Bronson_B = (90, 180), (80, 190), 3, straight, go, 60, 300, parkNone
+ Bronson_A1 = (124, 115), (90, 180), 3, straight, back, 60, 300, parkNone
+ Bronson_B1 = (90, 180), (80, 190), 3, straight, back, 60, 300, parkNone
+
+end segments
+
+begin crossings
+ c1 = (10, 10), 20, withTL, withoutHole, 300, 3
+ c2 = (20, 16), 20, withoutTL, withoutHole, 300, 3
+ c3 = (35, 107), 20, withoutTL, withoutHole, 300, 3
+ c4 = (53, 160), 20, withoutTL, withoutHole, 300, 3
+ c5 = (62, 113), 20, withoutTL, withoutHole, 300, 3
+ c6 = (71, 61), 20, withoutTL, withoutHole, 300, 3
+ c7 = (86, 90), 20, withoutTL, withoutHole, 300, 3
+ c8 = (65, 165), 20, withoutTL, withoutHole, 300, 3
+ c9 = (90, 180), 20, withTL, withoutHole, 300, 3
+ c10 = (82, 104), 20, withoutTL, withoutHole, 300, 3
+ c11 = (92, 110), 20, withoutTL, withoutHole, 300, 3
+ c12 = (99, 95), 20, withoutTL, withoutHole, 300, 3
+ c13 = (74, 120), 20, withoutTL, withoutHole, 300, 3
+ c14 = (35, 130), 20, withoutTL, withoutHole, 300, 3
+ c15 = (25, 188), 20, withoutTL, withoutHole, 300, 3
+ c16 = (110, 128), 20, withoutTL, withoutHole, 300, 3
+
+end crossings
+

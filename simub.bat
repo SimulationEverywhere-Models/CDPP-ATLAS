@@ -1,0 +1,1 @@
+simub -mmodel_new.ma -omodel_new.out -t00:10:00:00
